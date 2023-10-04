@@ -16,8 +16,12 @@ public class _Stack {
         }while (i <= 10);
 
         //retrieves and Pop from top
-        System.out.println(integersStack.pop());
+        System.out.println("Deleted element " + integersStack.pop());
+        //get length of the stack
+        System.out.println("length is " + integersStack.size());
         //retrieves from top
-        System.out.println(integersStack.peek());
+        System.out.println("The first element is " + integersStack.peek());
+        //Add at the top and retrieves
+        System.out.println("Pushed element is " + integersStack.push(99));
     }
 }
