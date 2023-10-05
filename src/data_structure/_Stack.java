@@ -1,6 +1,4 @@
 package data_structure;
-
-import java.util.Map;
 import java.util.Stack;
 
 public class _Stack {
@@ -23,5 +21,8 @@ public class _Stack {
         System.out.println("The first element is " + integersStack.peek());
         //Add at the top and retrieves
         System.out.println("Pushed element is " + integersStack.push(99));
+
+
+        // uses case of stack -> back track or undo \ redo algorithms
     }
 }
